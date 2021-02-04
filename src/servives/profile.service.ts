@@ -11,6 +11,11 @@ export class ProfileService {
   private clientsecret:"d6a835cf0fd5bbd86a39fc873810711bdf85ffe8"
 
   constructor(private http:HttpClient) {
-
+     console.log('server is ready');
+     this.username="ligare"
+     
+   }
+   getinformation(){
+     return this.http.get("");
    }
 }
