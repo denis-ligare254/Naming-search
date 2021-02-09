@@ -25,6 +25,9 @@ export class ProfileService {
    getProfileRepos(){
       return this.http.get<any[]>("https://api.github.com/users/denis-ligare254");
   }
+  updateProfile(username:string){
+    this.username=username;
+  }
    }
 
  

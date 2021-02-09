@@ -1,16 +1,17 @@
-<form action="">
+<h3 class="headingThree">Github<span class="gh">Search</span></h3>
+<form action="" class="search-form">
     <div class="form-group">
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" [(ngModel)]="username" name="username" (keyup)="findProfile()">
     </div>
 </form>
 
 
 <div *ngIf="profile">
-    <input type="text"><button>search</button>
 <div class="panel panel-default">
  <div class="panel-heading">
   {{profile.name}}<small>({{profile.login}})</small>
-  <span *ngIf="profile.company">,works at{{profile.company}}</span>
+  <span *ngIf="profile.company"><br>
+  works at{{profile.company}}</span>
   {{profile.location}}
  </div>
  <!-- to be displayed on the profile page ,more about the profile -->
