@@ -17,7 +17,7 @@ export class ProfileService {
      
    }
 getInformation(): Observable<any[]> {
-    return this.http.get<any[]>("https://api.github.com/users/");
+    return this.http.get<any[]>("https://api.github.com/users/denis-ligare254");
   }
   }
   //  getinformation(){
