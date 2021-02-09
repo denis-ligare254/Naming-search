@@ -20,9 +20,11 @@ export class ProfileService {
 
    getInformation(): Observable<any[]> {
     return this.http.get<any[]>("https://api.github.com/users/denis-ligare254");
-  }}
-  //  getinformation(){
-  //    return this.http.get("https://api.github.com/users/" +this.username + "?client_id=" + this.clientid +"&client_secret=" +this.clientsecret 
-  //    .map(res=>Response);
-//    }
-// }
+  }
+// function to get respository
+   getProfileRepos(){
+      return this.http.get<any[]>("https://api.github.com/users/denis-ligare254");
+  }
+   }
+
+ 
