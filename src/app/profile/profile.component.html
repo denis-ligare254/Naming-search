@@ -1,15 +1,16 @@
-<div>
- <input type="text">search here 
+<div *ngIf="profile">
+    <input type="text"><button>search</button>
 <div class="panel panel-default">
  <div class="panel-heading">
   {{profile.name}}<small>({{profile.login}})</small>
-  {{profile.company}}
+  <span *ngIf="profile.company">,works at{{profile.company}}</span>
+  {{profile.location}}
  </div>
  <!-- to be displayed on the profile page ,more about the profile -->
  <div class="panel-body">
   <div class="row">
    <div class="col-sm-3">
-    <img src="" alt="image profile" srcset="" class="img-circle img-responsive">
+    <img src="{{profile.avatar_url}}" alt="image profile" srcset="" class="img-circle img-responsive">
    </div>
    <div class="col-sm-5">
     <div class="list-group">
@@ -19,14 +20,15 @@
 
      </ul>
      <!-- following section,followers section -->
-     <div class="col-sm-5">
+     <div class="col-sm-4">
       <div>
        <p>
         <span class="label label-default">{{profile.followers}}followers</span>
-         <span class="label label-primary">{{profile.followers}}followers</span>
-          <span class="label label-success">{{profile.followers}}followers</span>
-           <span class="label label-info">{{profile.followers}}followers</span>
+         <span class="label label-primary">{{profile.following}}following</span>
+          <span class="label label-info">{{profile.public_repos}}repositories</span>
+        
        </p>
+       <p><a href ="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">Github profile here</a></p>
       </div>
      </div>
     </div>
