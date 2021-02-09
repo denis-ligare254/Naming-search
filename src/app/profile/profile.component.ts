@@ -7,9 +7,9 @@ import {ProfileService} from '../../servives/profile.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-profile:any[]
+profile:any
   constructor(private profileService: ProfileService) { 
-    this.profileService.getinformation().subscribe(profile=>{
+    this.profileService.getInformation().subscribe(profile=>{
       console.log(profile);
       this.profile =profile;
       
