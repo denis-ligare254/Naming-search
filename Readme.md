@@ -8,3 +8,6 @@
  ~Bootstrap4
  ~Angular
  ~Typescript
+ ## Link to my live server
+ -here is the link to the live server that i used
+  ~https://denis-ligare254.github.io/Naming-search/
