@@ -1,7 +1,11 @@
 <h3 class="headingThree">Github<span class="gh">Search</span></h3>
+<h4 class="about">About</h4>
+<div class="divider"></div>
+<p class="paragraph">
+A single page application for searching github users and repositories. The site uses the Github API to perform searches on Github, and display the results to the users</p>
 <form action="" class="search-form">
     <div class="form-group">
-        <input type="text" class="form-control" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+        <input type="text" class="form-control" [(ngModel)]="username" name="username" (keyup)="findProfile()" placeholder="search here using your UserName:">
     </div>
 </form>
 

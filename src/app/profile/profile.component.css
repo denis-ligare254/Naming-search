@@ -3,8 +3,19 @@
 }
 .headingThree{
  text-align: center;
- margin-top:5rem;
+ margin-top:2rem;
 }
 .gh{
  color:#3b5998;
+}
+.paragraph{
+ text-align: center;
+}
+.about{
+ text-align: center;
+ color:#3b5998;
+}
+.divider{
+ height: 0.5rem;
+ width: 0.5rem;
 }
