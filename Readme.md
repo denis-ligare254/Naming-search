@@ -8,6 +8,8 @@
  ~Bootstrap4
  ~Angular
  ~Typescript
+ # installation procedure
+The following are installation steps whenever you wanna install the web application -clone the application to your local repository using the following link (https://github.com/denis-ligare254/Naming-search) -After cloning, open the index.html file using your favorite browser. -lastly enjoy the interface as you keep trying the applications functionality
 
  ## Link to my live server
  -here is the link to the live server that i used
@@ -16,6 +18,7 @@
  ## Link to my the github repository
  -the below link directs one to the github link where the project is found
   ~https://github.com/denis-ligare254/Naming-search
+
  # colaborations
  -Do you want to collaborate to the project? well and good,any person with ideas can colaborate to the project b following the below steps -fork the repository into your account -use clone the repository to your local machine -create a pull request -thanks for your colaboration
  # Licence
