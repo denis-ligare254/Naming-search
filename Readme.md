@@ -8,12 +8,16 @@
  ~Bootstrap4
  ~Angular
  ~Typescript
+
  ## Link to my live server
  -here is the link to the live server that i used
   ~https://denis-ligare254.github.io/Naming-search/
+
  ## Link to my the github repository
  -the below link directs one to the github link where the project is found
   ~https://github.com/denis-ligare254/Naming-search
+ # colaborations
+ -Do you want to collaborate to the project? well and good,any person with ideas can colaborate to the project b following the below steps -fork the repository into your account -use clone the repository to your local machine -create a pull request -thanks for your colaboration
  # Licence
  Copyright (c) <2021> <denis ligare>
 
