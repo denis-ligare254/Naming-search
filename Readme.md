@@ -11,3 +11,6 @@
  ## Link to my live server
  -here is the link to the live server that i used
   ~https://denis-ligare254.github.io/Naming-search/
+ ## Link to my the github repository
+ -the below link directs one to the github link where the project is found
+  ~https://github.com/denis-ligare254/Naming-search
